@@ -1,0 +1,28 @@
+<h3>Here are some last minute Angular Notes for Rescue </h3>
+
+
+
+<h3>flatMap: </h3>
+<p>This operator is best used when you wish to flatten an inner observable but want to manually control the number of
+    inner subscriptions.</p>
+
+
+<h3>Switch Map:</h3>
+<p>switchMap is a combination of switchAll and map.
+    SwitchAll cancels the previous subscription and subscribes to the new one.</p>
+
+
+<h3>exhaustMap</h3>
+<p>Map to inner observable, ignore other values until that observable completes.</p>
+
+
+<h3>Concat Map:</h3>
+<p>concatMap takes value from each form and transforms it into a save HTTP Observable which is called an inner
+    Observable
+    and then subscribes to the inner Observable and sends its output to the result Observable
+    a second form value might come faster than what it takes to save the previous form value in the backend
+    If that happens, that new form value will not be immediately mapped to an HTTP request</p>
+
+
+<h3>ViewEncapsulation</h3>
+<p>Defines template and style encapsulation options available for Component's Component.</p>
